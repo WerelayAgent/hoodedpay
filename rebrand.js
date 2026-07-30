@@ -22,7 +22,7 @@ function processFiles(directory) {
                 { pattern: /HoodedPay/g, replacement: 'HoodedPay' },
                 { pattern: /hooded\.cash/gi, replacement: 'hoodedpay.com' },
                 { pattern: /Pons Family/gi, replacement: 'Pons Family' },
-                { pattern: /coming soon on Pons Family/gi, replacement: 'coming soon on Pons Family' },
+                { pattern: /0x95279bfe69dd263ccc6704b30159260d01e51964/gi, replacement: '0x95279bfe69dd263ccc6704b30159260d01e51964' },
                 { pattern: /x\.com\/hoodedcash/gi, replacement: 'x.com/hoodedpay' },
                 { pattern: /@hoodedpay/gi, replacement: '@hoodedpay' }
             ];
