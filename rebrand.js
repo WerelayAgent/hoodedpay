@@ -21,8 +21,8 @@ function processFiles(directory) {
             const replacements = [
                 { pattern: /HoodedPay/g, replacement: 'HoodedPay' },
                 { pattern: /hooded\.cash/gi, replacement: 'hoodedpay.com' },
-                { pattern: /pump.fun/gi, replacement: 'pump.fun' },
-                { pattern: /coming soon on pump.fun/gi, replacement: 'coming soon on pump.fun' },
+                { pattern: /Pons Family/gi, replacement: 'Pons Family' },
+                { pattern: /coming soon on Pons Family/gi, replacement: 'coming soon on Pons Family' },
                 { pattern: /x\.com\/hoodedcash/gi, replacement: 'x.com/hoodedpay' },
                 { pattern: /@hoodedpay/gi, replacement: '@hoodedpay' }
             ];
